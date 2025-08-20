@@ -1,16 +1,17 @@
-import { FaGithub, FaTwitter, FaFigma, FaMapMarkerAlt } from "react-icons/fa";
+import { FaGithub, FaMapMarkerAlt, FaLinkedinIn, FaTelegramPlane } from "react-icons/fa";
 
 export default function Hero() {
   return (
-    <section className="w-full min-h-[70vh] flex flex-col md:flex-row items-center justify-between px-6 md:px-16 py-14 bg-[#0A0E18]">
+    <section className="w-full min-h-[70vh] flex flex-col md:flex-row items-center justify-between px-6 md:px-10 py-14 bg-[#0A0E18]">
       <div className="flex-1 flex flex-col items-start justify-center">
         <h1 className="text-5xl md:text-6xl font-extrabold text-white mb-4 flex items-center leading-tight">
           Hi, I'm Artiom
           <span className="ml-3 text-5xl animate-wave origin-bottom">👋</span>
         </h1>
-        <p className="text-gray-300 text-lg md:text-xl mb-8 max-w-2xl font-normal">
-        Lorem Ipsum Dolor SitLorem Ipsum Dolor SitLorem Ipsum Dolor SitLorem Ipsum Dolor SitLorem Ipsum Dolor SitLorem Ipsum Dolor SitLorem Ipsum Dolor SitLorem Ipsum Dolor SitLorem Ipsum Dolor SitLorem Ipsum Dolor SitLorem Ipsum Dolor Sit
-        </p>
+        <p className="text-gray-300 text-sm md:text-xl mb-8 max-w-2xl font-normal">
+        I'm a full-stack developer (Python, PHP, Laravel, Vue.js, React, Flutter & Node.js) focused on building robust, scalable, and visually engaging digital experiences—web and mobile. With strong skills in both frontend and backend, I love turning complex ideas into fast, responsive, and accessible applications.
+        Even after years of coding and launching real-world projects, I still get excited every time I ship something new.
+          </p>
 
         <div className="flex flex-col items-start space-y-2 mb-8">
         <div className="flex items-center text-gray-200 text-lg">
@@ -28,7 +29,7 @@ export default function Hero() {
 
         <div className="flex space-x-4 text-2xl mt-2">
           <a
-            href="https://github.com/"
+            href="https://github.com/Artiom010?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition relative rounded-lg p-2 hover:bg-[#232b3e]"
@@ -36,34 +37,37 @@ export default function Hero() {
             <FaGithub />
           </a>
           <a
-            href="https://twitter.com/"
+            href="https://www.linkedin.com/in/artiom-ciobanu-88a902267/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition relative rounded-lg p-2 hover:bg-[#232b3e]"
           >
-            <FaTwitter />
+            <FaLinkedinIn />
           </a>
           <a
-            href="https://figma.com/"
+            href="https://web.telegram.org/k/#@Artiomc09"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition relative rounded-lg p-2 hover:bg-[#232b3e]"
           >
-            <FaFigma />
+            <FaTelegramPlane />
           </a>
         </div>
       </div>
 
       <div className="flex-1 flex justify-center items-center mt-10 md:mt-0">
-        <div className="relative">
-          <img
-            src="/vite.svg"
-            alt="Avatar"
-            className="w-[270px] h-[320px] object-cover rounded-md border-4 border-[#232b3e] shadow-lg z-10"
-          />
-          <div className="absolute -bottom-7 -right-7 w-[270px] h-[320px] border-[18px] border-[#232b3e] rounded-md z-0"></div>
-        </div>
-      </div>
+  <div className="relative">
+    <img
+      src="me.jfif"
+      alt="Avatar"
+      className="relative z-10 w-[270px] h-[320px] object-cover rounded-md border-4 border-[#232b3e] shadow-lg"
+    />
+    <div
+      className="absolute -bottom-7 -right-7 w-[270px] h-[320px] border-[18px] border-[#232b3e] rounded-md z-0"
+    ></div>
+  </div>
+</div>
+
     </section>
   );
 }

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { FaRegMoon, FaArrowUp } from "react-icons/fa";
+import {  FaArrowUp } from "react-icons/fa";
 import { Link } from "react-scroll"
 
 export default function Navbar() {
@@ -58,9 +58,9 @@ export default function Navbar() {
               Contact
             </Link>
             <div className="border-l h-6 border-gray-700 mx-2"></div>
-            <button className="text-gray-300 hover:text-white text-xl p-1 transition">
+            {/* <button className="text-gray-300 hover:text-white text-xl p-1 transition">
               <FaRegMoon />
-            </button>
+            </button> */}
             <a
               href="/CV.pdf"
               download

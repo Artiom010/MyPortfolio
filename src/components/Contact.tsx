@@ -1,6 +1,7 @@
-import { FaGithub, FaTwitter, FaFigma } from "react-icons/fa";
+import { FaGithub, FaTelegramPlane } from "react-icons/fa";
 import { Element } from "react-scroll";
 import CopyButton from "../components/CopyButton";
+import { FaLinkedinIn } from "react-icons/fa6";
 
 export default function Contact() {
   return (
@@ -9,7 +10,7 @@ export default function Contact() {
         Get in touch
       </button>
       <h2 className="text-white text-xl md:text-2xl font-normal text-center mb-8 leading-normal max-w-2xl">
-      Lorem Ipsum Dolor Sit     </h2>
+      What’s next? Reach out if you’re looking for a developer, have questions, or just want to connect.     </h2>
 
       <div className="flex items-center gap-4 md:gap-5">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -33,15 +34,14 @@ export default function Contact() {
       </div>
 
       <div className="text-gray-400 text-lg mb-6 text-center">
-      Lorem Ipsum Dolor SitLorem Ipsum Dolor Sit
-      </div>
+          You may also find me on these platforms!      </div>
       <div className="flex space-x-8 text-3xl text-gray-200 justify-center mb-2">
-        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition relative rounded-lg p-2 hover:bg-[#232b3e]"
+        <a href="https://github.com/Artiom010" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition relative rounded-lg p-2 hover:bg-[#232b3e]"
 ><FaGithub /></a>
-        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition relative rounded-lg p-2 hover:bg-[#232b3e]"
-        ><FaTwitter /></a>
-        <a href="https://figma.com/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition relative rounded-lg p-2 hover:bg-[#232b3e]"
-        ><FaFigma /></a>
+        <a href="https://web.telegram.org/k/#@Artiomc09" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition relative rounded-lg p-2 hover:bg-[#232b3e]"
+        ><FaTelegramPlane /></a>
+        <a href="https://www.linkedin.com/in/artiom-ciobanu-88a902267/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition relative rounded-lg p-2 hover:bg-[#232b3e]"
+        ><FaLinkedinIn /></a>
       </div>
     </Element>
   );
