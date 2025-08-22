@@ -116,7 +116,7 @@ export default function Navbar() {
             <NavLinks />
             <div className="border-l h-6 border-gray-700 mx-2" />
             <a
-              href="/CV.pdf"
+              href="/CVAC.pdf"
               download
               className="bg-white text-[#0A0E18] px-4 py-1 rounded-xl font-semibold shadow hover:bg-gray-200 transition focus:outline-none focus:ring-2 focus:ring-indigo-500"
             >
